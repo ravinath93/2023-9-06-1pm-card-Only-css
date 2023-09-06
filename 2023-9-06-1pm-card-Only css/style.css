@@ -1,0 +1,68 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/* page එකෙන්  width: 80%; ගන්න .. margin: 0 auto; එකෙන් තමයි container එක page එක මැද්දට ගන්නේ .. */
+.container{
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+
+/* row div එක මැද තියාගන්න තමයි container dive එක flex කරලා තියෙන්නේ  */ 
+
+.row{
+
+  /* background-color: blanchedalmond; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  width:100%; 
+  gap: 10px;
+}
+
+.box{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: rgba(128, 128, 128, 0.575);
+
+  margin: 20px;
+  padding: 0 0 10px 0;
+  
+  flex-wrap: wrap;
+  align-self: normal;
+
+  
+}
+
+img{
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.box-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  
+  margin-top: 10px;
+}
+
+.box-body p{
+  text-align: center;
+}
+
+button{
+ margin-top: 20px;
+}
+
